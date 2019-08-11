@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564224228306.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1530483313",
+    "id" : "6850DA1C",
+    "lastKnownWriteTime" : 1444828200,
+    "last_content_update" : 1444828200,
+    "path" : "D:/Dropbox/Dropbox/PhD/From_Burke_Lauenroth_Lab/R Code_Data_Analyses/Biome_Plot_R/biomes.source.code.R",
+    "project_path" : "biomes.source.code.R",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

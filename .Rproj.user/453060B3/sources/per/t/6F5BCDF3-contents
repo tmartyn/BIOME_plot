@@ -1,0 +1,26 @@
+############################################################################
+#### created by Trace Martyn 10.14.15 to use in-house for classes       ####
+#### TM note: could not get official package to work with R3.2.1        ####
+####    therefore this uses modified code from the original             ####
+############################################################################
+#### Run this code after running the "biomes.source.code.R" code        ####
+############################################################################
+
+source("biomes.source.code.R")
+
+# setwd to the folder that included this code (a piece of the function requires
+#        reading the "biomes.csv" file to run correctly)
+# setwd("C:/Users/Trace/Downloads/BIOMEplot_R/")
+
+# running this function creates the figure (it calls the two other functions in the source code)
+# options are:  add.legend=T/F
+#               add.numer=T/F
+#               merge.deserts=T/F
+plot_biome(add.legend = T, add.number =F)
+
+# add your PPT (cm) and Temp (c) points - 
+DF<-read.csv("WY.Temp.PPT.csv")
+
+# this DF's PPT is in mm therefore divided by 10
+points(y=DF$PPT/10,DF$TEMP, pch=19,cex=.3)
+
