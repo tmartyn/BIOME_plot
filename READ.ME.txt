@@ -1,0 +1,1 @@
+Run entire "biomes.source.code.R" file first and then the "run.biomes.rplot.code.R" afterwards. The first piece of code sets the functions up in the R workspace and the second runs the functions to create the figure.
